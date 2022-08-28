@@ -17,7 +17,7 @@ http://localhost:8080/actuator/health
 }
 ````
 ## Habilitar todos os Endpoints do Actuator:
-### Adicionar no Application.properties:
+### Adicionar no application.properties:
 ````
 management.endpoints.web.exposure.include=*
 ````
