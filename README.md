@@ -5,3 +5,19 @@
 ````
 http://localhost:8080/actuator
 ````
+
+## Verificando o Status do Serviço REST:
+````
+http://localhost:8080/actuator/health
+````
+## Resposta se estiver tudo certo ( UP e Running ):
+````
+{
+    "status": "UP"
+}
+````
+## Habilitar todos os Endpoints do Actuator:
+### Adicionar no Application.properties:
+````
+management.endpoints.web.exposure.include=*
+````
