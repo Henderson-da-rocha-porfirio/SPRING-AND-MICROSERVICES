@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ContasService/accounts.iml" filepath="$PROJECT_DIR$/ContasService/accounts.iml" />
       <module fileurl="file://$PROJECT_DIR$/CartoesService/cards.iml" filepath="$PROJECT_DIR$/CartoesService/cards.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EmprestimoService/loans.iml" filepath="$PROJECT_DIR$/EmprestimoService/loans.iml" />
     </modules>
   </component>
 </project>
